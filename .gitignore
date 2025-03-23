@@ -1,0 +1,13 @@
+# Ignore environment variables or sensitive API keys
+.env
+
+# Ignore any log files
+*.log
+
+# Ignore OS-specific files (for Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore any build output
+dist/
+build/
