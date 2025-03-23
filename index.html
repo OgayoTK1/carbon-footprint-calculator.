@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Emissions Estimator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Carbon Emissions Estimator</h1>
+        
+        <!-- Form for user input -->
+        <label for="prompt">Enter your transport details (e.g., taxi ride):</label>
+        <input type="text" id="prompt" placeholder="e.g., Taxi ride from Dubai Marina to Sharjah Airport">
+        
+        <label for="distance">Enter the distance (in km):</label>
+        <input type="number" id="distance" placeholder="e.g., 120">
+        
+        <button id="calculateBtn">Calculate Carbon Emissions</button>
+        
+        <!-- Results section -->
+        <div id="results" class="results">
+            <h3>Carbon Emissions</h3>
+            <p id="emissionResult"></p>
+        </div>
+    </div>
+</body>
+</html>
+
